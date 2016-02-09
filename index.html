@@ -1,23 +1,62 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Fundamentals</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button id="geocities-mode">Geocities Mode</button>
+  <div class="container">
+    <div class="header section">
+      <h1>LLSJ 2241: Web Fundamentals</h1>
+      <p class="lg">Section A, CRN: 7815</p>
+      <p class="lg">Tuesdays from 6-750</p>
+      <p class="lg">63 5th Ave, Room L101</p>
+    </div>
+    <div class="next-class section">
+      <p class="kicker">Today</p>
+      <h2>Hello, World.</h2>
+      <p>HTML, CSS, command line, Github. What? You’ll have a site published on the internet by the end of class.</p>
+    </div>
+    <div class="sked section">
+      <p class="kicker">Coming up</p>
+      <div class="day">
+        <p>Feb. 2</p>
+        <h3>What is Code?</h3>
+        <p>Black screen, white text, looking at the guts of the internet, leaving a vandalized path in our wake. We’ll also configure your computer. </p>
+      </div>
+      <div class="day">
+        <p>Feb. 9</p>
+        <h3>Hello, World.</h3>
+        <p>HTML, CSS, command line, Github. What? You’ll have a site published on the internet by the end of class.</p>
+      </div>
+      <div class="day">
+        <p>Feb. 16</p>
+        <h3>Your Basic Article Page</h3>
+        <p>Learning how to create the building blocks of the web. More HTML/CSS/command line/git practice.</p>
+      </div>
+      <div class="day">
+        <p>Feb. 23</p>
+        <h3>What About Phones (and all of the other devices)?</h3>
+        <p>A look at media queries, designing for mobile and tablet, and using a framework.</p>
+      </div>
+      <div class="day">
+        <p>March 1</p>
+        <h3>Make It Dance … Finally some JavaScript</h3>
+        <p>Interacting with a site. Getting a user’s information. Barebones basics, generally summed up with, “do stuff when you click things.”</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script>
+    $("#geocities-mode").on('click', function(){
+      $("body").toggleClass("geocities");
+    });
+  </script>
+</body>
+</html>
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+   

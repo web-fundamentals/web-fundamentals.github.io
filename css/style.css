@@ -1,0 +1,76 @@
+body { 
+  font-family: "Ubuntu Mono", monospace; 
+  font-size: 16px;
+  padding: 20px;
+  line-height: 1.2;
+}
+
+body.geocities {
+  background: url(http://thxalot.org/skits/gifdisko/Area51/img/space.gif);
+  font-family: cursive;
+  color: yellow;
+}
+
+.container {
+  max-width: 620px;
+}
+
+h1 {
+  font-size: 1em;
+  margin: 0;
+  font-weight: 300;
+}
+
+p {
+  margin: 0;
+}
+
+.lg {
+  opacity: .5;
+}
+
+.section {
+  margin-bottom: 4em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0 0 .25em 0;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 300;
+  margin: 0 0 .25em 0;
+}
+
+.sked {
+  max-width: 60%;
+}
+
+.day {
+  margin-bottom: 2em;
+}
+
+.day p {
+  opacity: .5;
+}
+
+h4 {
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0 0 .5em 0;
+  font-size: .8em;
+  letter-spacing: 2px;
+}
+
+button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.kicker {
+  margin-bottom: 10px;
+}
