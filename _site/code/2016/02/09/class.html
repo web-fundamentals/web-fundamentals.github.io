@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>creating a repo, adding some code, pushing to git</title>
+  <meta name="description" content="open iterm">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/code/2016/02/09/class.html">
+  <link rel="alternate" type="application/rss+xml" title="Web Fundamentals" href="http://yourdomain.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <div class="site-header">
+  <a href="/">web fundamentals</a>
+  <!-- <a href="/syllabus">syllabus</a> -->
+</div>
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <p class="post-meta">
+      <time datetime="2016-02-09T00:00:00-05:00" itemprop="datePublished">
+        Feb 9, 2016
+      </time>
+      
+    </p>
+    <h1 class="post-title" itemprop="name headline">creating a repo, adding some code, pushing to git</h1>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>open iterm</p>
+
+<p>navigate to your <code class="highlighter-rouge">web-fundamentals</code> folder (remember you’ll have to cd to do this)</p>
+
+<p>open github in chrome</p>
+
+<p>create a new repository</p>
+
+<p>name it <code class="highlighter-rouge">a2-repo</code></p>
+
+<p>copy the link it gives you after you create it</p>
+
+<p>go back to iterm</p>
+
+<p>type <code class="highlighter-rouge">git clone</code> then paste in that link</p>
+
+<p>this clones the repo</p>
+
+<p>cd into the repo</p>
+
+<p>type <code class="highlighter-rouge">touch index.html</code></p>
+
+<p>to create your index file</p>
+
+<p>open the folder in sublime</p>
+
+<p>add some code</p>
+
+<p>save and preview it in chrome (right click and choose <code class="highlighter-rouge">open in browser</code>)</p>
+
+<p>go back to iterm</p>
+
+<p>type <code class="highlighter-rouge">git add index.html</code></p>
+
+<p><code class="highlighter-rouge">git commit -m "your message here"</code></p>
+
+<p><code class="highlighter-rouge">git push origin master</code></p>
+
+<p>this adds it to your github profile, but now we have to make a branch to make it live</p>
+
+<p>type <code class="highlighter-rouge">git branch gh-pages</code></p>
+
+<p>to create the brach</p>
+
+<p><code class="highlighter-rouge">git checkout gh-pages</code></p>
+
+<p>to change to the branch</p>
+
+<p><code class="highlighter-rouge">git merge master</code></p>
+
+<p>to merge the master branch</p>
+
+<p><code class="highlighter-rouge">git push origin gh-pages</code></p>
+
+<p>to push it up</p>
+
+<p><code class="highlighter-rouge">git checkout master</code></p>
+
+<p>to move back to our master branch</p>
+
+<p>check http://your-github-usernmae.github.io/a2repo</p>
+
+<p>rejoice (or cry)</p>
+
+  </div>
+
+</article>
+
+<div class="PageNavigation">
+  
+    <a class="prev" href="/jekyll/update/2016/02/02/hello-world.html">&laquo; hello, world.</a>
+  
+  
+    <a class="next" href="/code/2016/02/16/class.html">let's do it live &raquo;</a>
+  
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  &copy; lb
+</footer>
+
+
+  </body>
+
+</html>

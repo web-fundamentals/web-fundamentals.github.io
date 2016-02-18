@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "creating a repo, adding some code, pushing to git"
+date:   2016-02-09
+categories: code
+---
+open iterm
+
+navigate to your `web-fundamentals` folder (remember you'll have to cd to do this)
+
+open github in chrome
+
+create a new repository
+
+name it `a2-repo`
+
+copy the link it gives you after you create it
+
+go back to iterm
+
+type `git clone` then paste in that link
+
+this clones the repo
+
+cd into the repo
+
+type `touch index.html` 
+
+to create your index file
+
+open the folder in sublime
+
+add some code
+
+save and preview it in chrome (right click and choose `open in browser`)
+
+go back to iterm
+
+type `git add index.html`
+
+`git commit -m "your message here"`
+
+`git push origin master`
+
+this adds it to your github profile, but now we have to make a branch to make it live
+
+type `git branch gh-pages` 
+  
+to create the brach
+
+`git checkout gh-pages`
+
+to change to the branch
+
+`git merge master`
+
+to merge the master branch
+
+`git push origin gh-pages`
+
+to push it up
+
+`git checkout master`
+
+to move back to our master branch
+
+check http://your-github-usernmae.github.io/a2repo
+
+rejoice (or cry)

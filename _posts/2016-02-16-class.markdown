@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "let's do it live"
+date:   2016-02-16
+categories: code
+---
+we actually coded up a website. remember the steps.
+
+1. create your repo.
+2. clone your repo.
+3. sketch your site and markup. diagram your site, what elements should be what tags?
+4. set up your files. (create an index file, a css folder and a style.css file)
+5. open your folder in sublime and start coding. you'll need to link up your css file in your `<head>` tag of your `index.html` file, download a reset stylesheet from [here](http://meyerweb.com/eric/tools/css/reset/reset.css), link that up in your `<head>` tag, add your markup for your site, and add some style. 
+6. save your project periodically, open it in your browser, and refresh to check your changes.
+7. once you're ready to, push up your project to github. 
+8. in iterm, cd into your project folder, then add your files (`git add .`), commit them (`git commit -m "message here"`), and push them to the master branch (`git push origin master`).
+9. to make them live, create a gh-pages branch (`git branch gh-pages`) switch to the gh-pages branch (`git checkout gh-pages`) and push to the gh-pages branch (`git push origin gh-pages`). 
+10. check `http://your-github-username.github.io/repo-name` to see your project live.
