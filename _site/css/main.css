@@ -188,7 +188,8 @@ table {
 
 body {
   padding: 20px;
-  line-height: 1.25; }
+  line-height: 1.25;
+  font-family: monospace; }
 
 .section, .wrapper {
   margin-bottom: 20px; }
