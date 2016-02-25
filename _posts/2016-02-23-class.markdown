@@ -1,0 +1,9 @@
+---
+layout: post
+title:  bloggin
+date:   2016-02-23
+categories: code
+---
+alex was gracious enough to sub for me today. 
+
+she, undoubtedly, better explained all of this than me. here's [what you built](http://newschool-webfundamentals.github.io/lessons/blog/index.html).
