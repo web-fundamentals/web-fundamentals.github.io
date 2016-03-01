@@ -226,3 +226,14 @@ code {
   padding: 0px 6px;
   border-radius: 2px;
   white-space: nowrap; }
+
+th, td {
+  text-align: left;
+  border-bottom: 1px solid #ccc; }
+
+th {
+  padding: 0 20px 0 0;
+  font-weight: bold; }
+
+td {
+  padding: 5px 20px 20px 0; }
