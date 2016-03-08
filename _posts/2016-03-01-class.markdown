@@ -1,0 +1,34 @@
+---
+layout: post
+title:  5. A tiny bit of JavaScript
+date:   2016-03-01
+categories: code
+description: Alex was gracious enough to sub. You created a lovely blog.
+assignment: a5. Copy <a href="http://larrybuch.github.io/a5-js/">this</a> page exactly. We'll post it to our github pages site in class on March 8.
+---
+Guys, we're getting into the heavy stuff. JavaScript. Making it dance. The big show. Really, though, all we did was add a little bit of JavaScript to our page. Basically, we added a simple function that amounts to "click this button and do something."
+
+##Remember how we did it?
+
+We added two `<script> </script>` tags just before the closing `</body>` tag in `index.html`. The first included a JavaScript library called [jQuery](https://code.jquery.com/) — basically a bundle of code some lovely people wrote for us to make our lives easier. The second linked to our own js file `script.js`. It looked like this.
+
+{% highlight html linenos%}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+{% endhighlight %}
+
+Here's what `script.js` contained.
+
+{% highlight js linenos%}
+// the first line selects the button and waits for a click
+// when the button is clicked it runs a function 
+// that selects the h1 and does something
+
+$("button").click(function(){
+  $("h1").doSomething();
+});
+{% endhighlight %}
+
+This is just a few lines of js, but it's pretty powerful. Click a button and do something is a fundamental piece of the internet. Don't underestimate this lil code snippet.

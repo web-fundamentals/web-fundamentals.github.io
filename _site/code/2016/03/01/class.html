@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>5. A tiny bit of JavaScript</title>
+  <meta name="description" content="Guys, we’re getting into the heavy stuff. JavaScript. Making it dance. The big show. Really, though, all we did was add a little bit of JavaScript to our pag...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/code/2016/03/01/class.html">
+  <link rel="alternate" type="application/rss+xml" title="Web Fundamentals" href="http://yourdomain.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <div class="site-header">
+  <a href="/">web fundamentals</a>
+</div>
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <p class="post-meta">
+      <time datetime="2016-03-01T00:00:00-05:00" itemprop="datePublished">
+        Mar 1
+      </time>
+      
+    </p>
+    <h1 class="post-title" itemprop="name headline">5. A tiny bit of JavaScript</h1>
+  </header>
+
+  <div class="assignment">
+    ////////////// ASSIGNMENT ///////////////
+    <p>a5. Copy <a href="http://larrybuch.github.io/a5-js/">this</a> page exactly. We'll post it to our github pages site in class on March 8.</p>
+    ////////////////////////////////////////
+  </div>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Guys, we’re getting into the heavy stuff. JavaScript. Making it dance. The big show. Really, though, all we did was add a little bit of JavaScript to our page. Basically, we added a simple function that amounts to “click this button and do something.”</p>
+
+<h2 id="remember-how-we-did-it">Remember how we did it?</h2>
+
+<p>We added two <code class="highlighter-rouge">&lt;script&gt; &lt;/script&gt;</code> tags just before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag in <code class="highlighter-rouge">index.html</code>. The first included a JavaScript library called <a href="https://code.jquery.com/">jQuery</a> — basically a bundle of code some lovely people wrote for us to make our lives easier. The second linked to our own js file <code class="highlighter-rouge">script.js</code>. It looked like this.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4</pre></td><td class="code"><pre>  <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+  <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"script.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+<span class="nt">&lt;/body&gt;</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<p>Here’s what <code class="highlighter-rouge">script.js</code> contained.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7</pre></td><td class="code"><pre><span class="c1">// the first line selects the button and waits for a click</span>
+<span class="c1">// when the button is clicked it runs a function </span>
+<span class="c1">// that selects the h1 and does something</span>
+
+<span class="nx">$</span><span class="p">(</span><span class="s2">"button"</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+  <span class="nx">$</span><span class="p">(</span><span class="s2">"h1"</span><span class="p">).</span><span class="nx">doSomething</span><span class="p">();</span>
+<span class="p">});</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<p>This is just a few lines of js, but it’s pretty powerful. Click a button and do something is a fundamental piece of the internet. Don’t underestimate this lil code snippet.</p>
+
+  </div>
+
+</article>
+
+<div class="PageNavigation">
+  
+    <a class="prev" href="/code/2016/02/23/class.html">&laquo; 4. Creating a basic blog</a>
+  
+  
+    <a class="next" href="/code/2016/03/07/class.html">6. Bring it together &raquo;</a>
+  
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  &copy; lb
+</footer>
+
+
+  </body>
+
+</html>

@@ -2,34 +2,29 @@
 layout: default
 ---
 
-<div class="announcements section">
-  <h2>announcements</h2>
-  --------------------------------------
-  <p>+++ ASSIGNMENT +++</p>
-  <p>assignment 4 is due at the beginning of the next class. call your repo <code>a4-blog</code>.</p>
-  <br/>
-  <p>+++ OFFICE HOURS +++</p>
-  <p>will be this friday from 5:30 to 6:30 in the building we have class. note the time change. it's an hour later.</p>
+<div class="section">
+  <p><b>Common Stuff</b></p>
+  <a href="https://github.com/larrybuch/p5-js/archive/master.zip">Basic Site Template</a>
 </div>
 
-<div class="next section">
-  <h2>next class</h2>
-  <p>--------------------------------------</p>
-  <p>first time javascript</p>
-</div>
-
-<div class="home section">
-  <h2>notes</h2>
-  <p>--------------------------------------</p>
-
-  <div class="post-list">
+<table class="main">
+  <thead>
+    <tr>
+      <th>date</th>
+      <th class="class">class</th>
+      <th>assignment</th>
+    </tr>
+  </thead>
+  <tbody>
     {% for post in site.posts %}
-      <div class="post">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </div>
+      <tr>
+        <td>{{ post.date | date: "%-m/%-d" }}</td>
+        <td>
+          <b><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></b>
+          <br>{{ post.description }}
+        </td>
+        <td>{{ post.assignment }}</td>
+      </tr>
     {% endfor %}
-  </div>
-</div>
+  </tbody>
+</table>

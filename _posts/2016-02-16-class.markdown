@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "let's do it live"
+title:  "3. Let's do it live"
 date:   2016-02-16
 categories: code
+description: Learning how to create the building blocks of the web. More HTML/CSS/command line/git practice.
+assignment: a3. Redo what we did in class. Call it <code>a3-character-site</code>. Publish it to github pages.
 ---
 we actually coded up a website. remember the steps.
 

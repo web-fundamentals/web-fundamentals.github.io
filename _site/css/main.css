@@ -187,18 +187,21 @@ table {
     color: #099; }
 
 body {
-  padding: 20px;
-  line-height: 1.25;
+  padding: 30px;
+  line-height: 1.5;
   font-family: monospace; }
+
+b {
+  font-weight: bold; }
 
 .section, .wrapper {
   margin-bottom: 20px; }
 
 .page-content {
-  max-width: 450px; }
+  max-width: 560px; }
 
 .post-content p {
-  margin-bottom: .5em; }
+  margin-bottom: 1em; }
 
 .site-header {
   margin-bottom: 20px; }
@@ -206,11 +209,22 @@ body {
 .post {
   margin-bottom: 20px; }
 
+h1 {
+  font-size: 24px; }
+
+h2 {
+  font-size: 20px;
+  margin: 1.5em 0 .5em 0; }
+
 .post-header {
   margin-bottom: 20px; }
 
-.announcements p {
-  color: red; }
+.assignment {
+  color: red;
+  max-width: 60%;
+  margin-bottom: 2em; }
+  .assignment p {
+    padding: 20px; }
 
 footer {
   position: fixed;
@@ -220,20 +234,39 @@ ol {
   list-style: decimal;
   margin-left: 15px; }
 
-code {
+p code {
   background-color: #000;
   color: cyan;
-  padding: 0px 6px;
+  padding: 0px 3px;
   border-radius: 2px;
   white-space: nowrap; }
 
-th, td {
+table.main th, table.main td {
   text-align: left;
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
 
-th {
+table.main th {
   padding: 0 20px 0 0;
   font-weight: bold; }
 
-td {
-  padding: 5px 20px 20px 0; }
+th.class {
+  width: 45%; }
+
+table.main td {
+  padding: 5px 40px 20px 0; }
+
+table.main td:nth-child(3n) {
+  padding-right: 0px; }
+
+td.gutter.gl {
+  padding-right: 20px;
+  opacity: 0.3; }
+
+.highlight {
+  background: #F5F5F5;
+  padding-left: 20px;
+  border-radius: 3px; }
+
+pre {
+  white-space: pre;
+  overflow: auto; }

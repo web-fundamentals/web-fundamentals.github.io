@@ -6,12 +6,70 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Mar 2016 10:33:40 -0500</pubDate>
-    <lastBuildDate>Tue, 01 Mar 2016 10:33:40 -0500</lastBuildDate>
+    <pubDate>Mon, 07 Mar 2016 22:12:38 -0500</pubDate>
+    <lastBuildDate>Mon, 07 Mar 2016 22:12:38 -0500</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
-        <title>bloggin</title>
+        <title>6. Bring it together</title>
+        <description>&lt;p&gt;I’ll post the notes from today’s class here.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Mar 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/code/2016/03/07/class.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/code/2016/03/07/class.html</guid>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>5. A tiny bit of JavaScript</title>
+        <description>&lt;p&gt;Guys, we’re getting into the heavy stuff. JavaScript. Making it dance. The big show. Really, though, all we did was add a little bit of JavaScript to our page. Basically, we added a simple function that amounts to “click this button and do something.”&lt;/p&gt;
+
+&lt;h2 id=&quot;remember-how-we-did-it&quot;&gt;Remember how we did it?&lt;/h2&gt;
+
+&lt;p&gt;We added two &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt; &amp;lt;/script&amp;gt;&lt;/code&gt; tags just before the closing &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; tag in &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;. The first included a JavaScript library called &lt;a href=&quot;https://code.jquery.com/&quot;&gt;jQuery&lt;/a&gt; — basically a bundle of code some lovely people wrote for us to make our lives easier. The second linked to our own js file &lt;code class=&quot;highlighter-rouge&quot;&gt;script.js&lt;/code&gt;. It looked like this.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;script.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here’s what &lt;code class=&quot;highlighter-rouge&quot;&gt;script.js&lt;/code&gt; contained.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// the first line selects the button and waits for a click&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// when the button is clicked it runs a function &lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// that selects the h1 and does something&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;button&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;h1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This is just a few lines of js, but it’s pretty powerful. Click a button and do something is a fundamental piece of the internet. Don’t underestimate this lil code snippet.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Mar 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/code/2016/03/01/class.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/code/2016/03/01/class.html</guid>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>4. Creating a basic blog</title>
         <description>&lt;p&gt;alex was gracious enough to sub for me today.&lt;/p&gt;
 
 &lt;p&gt;she, undoubtedly, better explained all of this than me. here’s &lt;a href=&quot;http://newschool-webfundamentals.github.io/lessons/blog/index.html&quot;&gt;what you built&lt;/a&gt;.&lt;/p&gt;
@@ -26,7 +84,7 @@
       </item>
     
       <item>
-        <title>let&#39;s do it live</title>
+        <title>3. Let&#39;s do it live</title>
         <description>&lt;p&gt;we actually coded up a website. remember the steps.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -52,7 +110,7 @@
       </item>
     
       <item>
-        <title>creating a repo, adding some code, pushing to git</title>
+        <title>2. Your First Site</title>
         <description>&lt;p&gt;open iterm&lt;/p&gt;
 
 &lt;p&gt;navigate to your &lt;code class=&quot;highlighter-rouge&quot;&gt;web-fundamentals&lt;/code&gt; folder (remember you’ll have to cd to do this)&lt;/p&gt;
@@ -127,17 +185,13 @@
       </item>
     
       <item>
-        <title>hello, world.</title>
-        <description>&lt;p&gt;This was our first class? Do you remember it? We cracked open the web inspector and vandalized a few websites. The inspector is key to your internet future. Use it often.&lt;/p&gt;
+        <title>1. Hello, World</title>
+        <description>&lt;p&gt;This was our first class. Do you remember it? We cracked open the web inspector and vandalized a few websites. The inspector is key to your internet future. Use it often.&lt;/p&gt;
 </description>
         <pubDate>Tue, 02 Feb 2016 23:19:27 -0500</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/02/02/hello-world.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/02/02/hello-world.html</guid>
+        <link>http://yourdomain.com/2016/02/02/hello-world.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/02/02/hello-world.html</guid>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
