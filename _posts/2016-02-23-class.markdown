@@ -4,7 +4,7 @@ title:  4. Creating a basic blog
 date:   2016-02-23
 categories: code
 description: Alex was gracious enough to sub. You created a lovely blog.
-assignment: a4. Redo what you did in class with your own style. Call it <code>a4-blog</code>. Publish to github pages.
+assignment: a4. Redo <a href="http://newschool-webfundamentals.github.io/lessons/blog/index.html">what you did</a> in class with your own style. Call it <code>a4-blog</code>. Publish to github pages.
 ---
 alex was gracious enough to sub for me today. 
 

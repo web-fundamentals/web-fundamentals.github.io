@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Web Fundamentals</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/push.html">
+  <link rel="alternate" type="application/rss+xml" title="Web Fundamentals" href="http://yourdomain.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <div class="site-header">
+  <a href="/">web fundamentals</a>
+</div>
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+  <h1>How To Push To Git and Publish To Your gh-pages Branch</h1>
+  <ol>
+    <li>cd into the repo you're trying to push up.</li>
+    <li>Once you're in the repo, type 
+        <br><code>git add .</code>
+        <br><code>git commit -m "add a commit message here about what you did"</code>
+        <br><code>git push origin master</code>
+        <br>That pushes your repo up to your <code>master</code> branch. It's not live on the internet at this point. Your files just live on your github profile page.
+    </li>
+  </ol>
+  <br><br>
+    <p>tl;dr :: quick and dirty</p>
+    <p>cd into your repo</p>
+    <p><code>git add .</code> to add your files</p>
+    <p><code>git commit -m "message here"</code> to commit your files</p>
+    <p><code>git push origin master</code> to push your files</p>
+    
+    <br><br>
+  <h2>Do you want to publish this live?</h2>
+  <ol>
+      <li>Make sure you're in the repo you want to publish.</li>
+      <li>If this is your first time publishing this live, you'll need to create a <code>gh-pages</code> branch.</li>
+      <li>Type <code>git branch gh-pages</code>
+        <br>This creates your gh-pages branch. If you type <code>git-branch</code> at this point, it should show you <br>
+        <code>gh-pages</code>
+        <br>
+        <code>*master</code>
+      </li>
+      <li>
+          Now we need to switch to our gh-pages branch. <br>
+          Type <code>git checkout gh-pages</code>
+      </li>
+      <li>
+          Now you have to merge in your master branch. Type <code>git merge master</code>
+      </li>
+      <li>
+          Then push up your code. Type <code>git push origin gh-pages</code>
+      </li>
+      <li>
+          Always switch back to your master branch at this point. <code>git checkout master</code>
+      </li>
+      <li>
+          Now you don't have to create this branch again. You just have to switch to it, merge in your master branch, publish, and switch back to master.
+      </li>
+  </ol>
+
+    <br><br>
+    <p>tl;dr :: quick and dirty</p>
+    <p><code>git branch gh-pages</code> to create the branch</p>
+    <p><code>git checkout gh-pages</code> to switch to it</p>
+    <p><code>git merge master</code> to merge the master branch</p>
+    <p><code>git push origin gh-pages</code> to publish it</p>
+    <p><code>git checkout master</code> to switch back to master</p>
+
+  
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  &copy; lb
+</footer>
+
+
+  </body>
+
+</html>

@@ -3,28 +3,39 @@ layout: default
 ---
 
 <div class="section">
-  <p><b>Common Stuff</b></p>
-  <a href="https://github.com/larrybuch/p5-js/archive/master.zip">Basic Site Template</a>
+  <p><b>Stuff You Should Know, but Sometimes Need a Refresher On</b></p>
+  <!-- <p><a href="#">How to Set Up A Basic Site</a></p> -->
+  <p><a href="repo">How to Create and Clone a Repo</a></p>
+  <p><a href="push">How to Push to Git and Publish to Your gh-pages Branch</a></p>
 </div>
 
-<table class="main">
-  <thead>
-    <tr>
-      <th>date</th>
-      <th class="class">class</th>
-      <th>assignment</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for post in site.posts %}
+<div class="section">
+  <p><b>Resources</b></p>
+  <p><a href="https://github.com/larrybuch/p5-js/archive/master.zip">Basic Site Template</a></p>
+  <p><a href="http://meyerweb.com/eric/tools/css/reset/reset.css">Reset CSS from Eric Meyer</a></p>
+</div>
+
+<div class="section">
+  <p><b>Schedule</b></p>
+  <table class="main">
+    <thead>
       <tr>
-        <td>{{ post.date | date: "%-m/%-d" }}</td>
-        <td>
-          <b><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></b>
-          <br>{{ post.description }}
-        </td>
-        <td>{{ post.assignment }}</td>
+        <!-- <th>date</th> -->
+        <!-- <th class="class">class</th> -->
+        <!-- <th>assignment</th> -->
       </tr>
-    {% endfor %}
-  </tbody>
-</table>
+    </thead>
+    <tbody>
+      {% for post in site.posts %}
+        <tr>
+          <td>{{ post.date | date: "%-m/%-d" }}</td>
+          <td>
+            <b><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></b>
+            <br>{{ post.description }}
+          </td>
+          <td>{{ post.assignment }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

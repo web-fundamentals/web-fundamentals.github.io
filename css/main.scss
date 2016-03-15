@@ -22,7 +22,7 @@ b {
 }
 
 .section, .wrapper {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .page-content {
@@ -43,6 +43,8 @@ b {
 
 h1 {
   font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -74,7 +76,7 @@ ol {
   margin-left: 15px;
 }
 
-p code {
+p code, ol code {
   background-color: #000;
   color: cyan;
   padding: 0px 3px;
@@ -118,6 +120,15 @@ td.gutter.gl {
 pre { 
   white-space: pre; 
   overflow: auto; 
+}
+
+ol img {
+  max-width: 600px;
+  // padding: 20px;
+  // background: #eee;
+  border-radius: 3px;
+  display: block;
+  margin: 20px 0;
 }
 
 

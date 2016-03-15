@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  6. Bring it together
-date:   2016-03-07
+date:   2016-03-08
 categories: code
 description: Coding up your very own zine.
 assignment: midterm. Create a site for a zine. The site must include at least 3 pages and some JavaScript. Name your repo <code>midterm</code> and publish it on your github pages site.
 ---
-I'll post the notes from today's class here.
+In class today, we got our basic midterm site setup, pushed the initial repo up to github, and started to sketch what your midterm would be. 

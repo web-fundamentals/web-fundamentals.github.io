@@ -4,7 +4,7 @@ title:  5. A tiny bit of JavaScript
 date:   2016-03-01
 categories: code
 description: Alex was gracious enough to sub. You created a lovely blog.
-assignment: a5. Copy <a href="http://larrybuch.github.io/a5-js/">this</a> page exactly. We'll post it to our github pages site in class on March 8.
+assignment: a5. Copy <a href="http://larrybuch.github.io/a5-js/">this</a> page exactly. We'll post it to our github pages site in class on March 8. In class, we pushed this repo up as <code>a5-new-yorker</code>.
 ---
 Guys, we're getting into the heavy stuff. JavaScript. Making it dance. The big show. Really, though, all we did was add a little bit of JavaScript to our page. Basically, we added a simple function that amounts to "click this button and do something."
 
