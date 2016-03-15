@@ -1,0 +1,9 @@
+---
+layout: post
+title:  7. Midterm Show 'N' Tell
+date:   2016-03-15
+categories: code
+description: Show and tell of your midterm projects.
+assignment: Start and complete this tutorial from <a href="https://dash.generalassemb.ly/">General Assembly</a>.
+---
+Nice work on the midterms, crew.

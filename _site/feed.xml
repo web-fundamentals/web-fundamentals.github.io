@@ -6,9 +6,22 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Mar 2016 09:55:43 -0400</pubDate>
-    <lastBuildDate>Tue, 15 Mar 2016 09:55:43 -0400</lastBuildDate>
+    <pubDate>Tue, 15 Mar 2016 17:59:29 -0400</pubDate>
+    <lastBuildDate>Tue, 15 Mar 2016 17:59:29 -0400</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>7. Midterm Show &#39;N&#39; Tell</title>
+        <description>&lt;p&gt;Nice work on the midterms, crew.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Mar 2016 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/code/2016/03/15/class.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/code/2016/03/15/class.html</guid>
+        
+        
+        <category>code</category>
+        
+      </item>
     
       <item>
         <title>6. Bring it together</title>
