@@ -1,0 +1,67 @@
+---
+layout: post
+title:  9. You cut the budget.
+date:   2016-03-29
+categories: code
+description: Sent you off the deep end. 
+assignment: Make a you fix the budget calculator. call it a7-federal-budget.
+---
+
+You fix the budget.
+The goal is to cut the federal budget by $2 trillion. Let the user pick and choose what to cut and give them feedback on how far they need to go.
+
+1. copy your current project to get the basic structure.
+2. sketch what you want your budget fixer to look like.
+3. code up your html.
+4. add style.
+5. write out in english what you want your js to do.
+6. write your js.
+
+
+Here's the federal budget (in billions)
+
+Social Security
+972.60
+ 
+National Defense  
+616.98
+ 
+Medicare
+604.97
+ 
+Health  
+567.57
+ 
+Income Security
+535.86
+ 
+Net Interest  
+302.70
+ 
+Veterans Benefits and Services  
+180.77
+ 
+Education, Training, Employment, and Social Services  
+107.56
+ 
+Transportation  
+100.23
+ 
+Administration of Justice
+63.91
+ 
+International Affairs
+55.81
+ 
+Natural Resources and Environment
+43.53
+ 
+General Science, Space, and Technology  
+31.50
+ 
+General Government  
+29.28
+ 
+Agriculture
+26.16
+

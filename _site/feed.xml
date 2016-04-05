@@ -6,9 +6,80 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Apr 2016 17:20:48 -0400</pubDate>
-    <lastBuildDate>Tue, 05 Apr 2016 17:20:48 -0400</lastBuildDate>
+    <pubDate>Tue, 05 Apr 2016 19:05:42 -0400</pubDate>
+    <lastBuildDate>Tue, 05 Apr 2016 19:05:42 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>9. You cut the budget.</title>
+        <description>&lt;p&gt;You fix the budget.
+The goal is to cut the federal budget by $2 trillion. Let the user pick and choose what to cut and give them feedback on how far they need to go.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;copy your current project to get the basic structure.&lt;/li&gt;
+  &lt;li&gt;sketch what you want your budget fixer to look like.&lt;/li&gt;
+  &lt;li&gt;code up your html.&lt;/li&gt;
+  &lt;li&gt;add style.&lt;/li&gt;
+  &lt;li&gt;write out in english what you want your js to do.&lt;/li&gt;
+  &lt;li&gt;write your js.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here’s the federal budget (in billions)&lt;/p&gt;
+
+&lt;p&gt;Social Security
+972.60&lt;/p&gt;
+
+&lt;p&gt;National Defense&lt;br /&gt;
+616.98&lt;/p&gt;
+
+&lt;p&gt;Medicare
+604.97&lt;/p&gt;
+
+&lt;p&gt;Health&lt;br /&gt;
+567.57&lt;/p&gt;
+
+&lt;p&gt;Income Security
+535.86&lt;/p&gt;
+
+&lt;p&gt;Net Interest&lt;br /&gt;
+302.70&lt;/p&gt;
+
+&lt;p&gt;Veterans Benefits and Services&lt;br /&gt;
+180.77&lt;/p&gt;
+
+&lt;p&gt;Education, Training, Employment, and Social Services&lt;br /&gt;
+107.56&lt;/p&gt;
+
+&lt;p&gt;Transportation&lt;br /&gt;
+100.23&lt;/p&gt;
+
+&lt;p&gt;Administration of Justice
+63.91&lt;/p&gt;
+
+&lt;p&gt;International Affairs
+55.81&lt;/p&gt;
+
+&lt;p&gt;Natural Resources and Environment
+43.53&lt;/p&gt;
+
+&lt;p&gt;General Science, Space, and Technology&lt;br /&gt;
+31.50&lt;/p&gt;
+
+&lt;p&gt;General Government&lt;br /&gt;
+29.28&lt;/p&gt;
+
+&lt;p&gt;Agriculture
+26.16&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 29 Mar 2016 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/code/2016/03/29/class.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/code/2016/03/29/class.html</guid>
+        
+        
+        <category>code</category>
+        
+      </item>
     
       <item>
         <title>8. Getting JS to Talk Back</title>
