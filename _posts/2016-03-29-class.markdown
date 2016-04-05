@@ -1,0 +1,9 @@
+---
+layout: post
+title:  8. Getting JS to Talk Back
+date:   2016-03-29
+categories: code
+description: We're going to dive deeper into javascript and jquery.
+assignment: a6.
+---
+Nice work on the midterms, crew.
