@@ -4,7 +4,7 @@ title:  "2. Your First Site"
 date:   2016-02-09
 categories: code
 description: HTML, CSS, command line, Github. What? You’ll have a site published on the internet by the end of class.
-assignment: a2. Create a repo called <code>a2-repo</code>, add a bit of code, and get it live on your github pages url
+assignment: a2. Create a repo called <code>a2-repo</code>, add a bit of code, and get it live on your github pages url.
 ---
 open iterm
 
