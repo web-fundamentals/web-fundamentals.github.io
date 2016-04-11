@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  9. You cut the budget.
-date:   2016-03-29
+date:   2016-04-05
 categories: code
 description: Sent you off the deep end. 
 assignment: Make a you fix the budget calculator. call it a7-federal-budget.

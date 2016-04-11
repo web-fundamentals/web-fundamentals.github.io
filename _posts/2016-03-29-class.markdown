@@ -6,4 +6,8 @@ categories: code
 description: We're going to dive deeper into javascript and jquery.
 assignment: a6. Create a club. Who gets in?
 ---
-Nice work on the midterms, crew.
+Use our club example to create your own club.
+
+The site and code live [here](http://larrybuch.github.io/more-js/).
+
+There should be 4 rules to get in, or not. 
