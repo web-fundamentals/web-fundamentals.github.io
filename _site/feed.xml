@@ -6,9 +6,64 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Apr 2016 08:23:22 -0400</pubDate>
-    <lastBuildDate>Mon, 11 Apr 2016 08:23:22 -0400</lastBuildDate>
+    <pubDate>Tue, 12 Apr 2016 16:48:07 -0400</pubDate>
+    <lastBuildDate>Tue, 12 Apr 2016 16:48:07 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>10. Build a Quiz.</title>
+        <description>&lt;p&gt;groups of 2-3.&lt;/p&gt;
+
+&lt;h2 id=&quot;come-up-with-an-idea-for-a-quiz&quot;&gt;come up with an idea for a quiz.&lt;/h2&gt;
+&lt;p&gt;there are a bunch of examples below to get you started.&lt;/p&gt;
+
+&lt;p&gt;sketch on paper (or photoshop or illustrator) your wireframe for how you want the quiz to look. 
+show it to me.&lt;/p&gt;
+
+&lt;p&gt;gather the elements you need. 
+write your questions.&lt;/p&gt;
+
+&lt;p&gt;translate your sketch into html.
+add style.
+add js.&lt;/p&gt;
+
+&lt;p&gt;publish! before the next class. both of you need to publish your own to your own github, but the code can be the same.&lt;/p&gt;
+
+&lt;h2 id=&quot;examples&quot;&gt;examples&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/interactive/2015/11/10/arts/design/art-auction-quiz.html&quot;&gt;are you smarter than a millionaire? or which painting cost more.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/interactive/2015/02/22/upshot/internet-language-quiz.html&quot;&gt;do you know what yolo is?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.washingtonpost.com/news/worldviews/wp/2015/09/14/quiz-20-questions-about-the-world-a-future-u-s-president-should-get-right/&quot;&gt;20 questions a future president should know&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.npr.org/sections/thesalt/2013/04/22/178092000/coffee-quiz-discover-the-world-in-a-cup-of-joe&quot;&gt;a quiz about coffee&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/interactive/2013/09/02/science/the-high-school-challenge.html&quot;&gt;high school tests are hard. would you pass?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/interactive/2015/02/16/sports/westminster-dog-show-quiz.html&quot;&gt;match the dog to the owner&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/interactive/2015/07/19/opinion/sunday/Frank-Bruni-Quiz-Trump-Berlusconi.html&quot;&gt;who said it trump or berlusconi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.washingtonpost.com/news/wonk/wp/2015/01/09/quiz-can-you-name-a-city-just-by-looking-at-its-streets/&quot;&gt;can you name the city but just looking at it’s street grid?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.washingtonpost.com/wp-srv/special/world/do-you-know-africa/&quot;&gt;how well do you know africa?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.washingtonpost.com/pb/do-you-know-these-dance-moves/bcfe0ad4-6862-4ec0-a8c0-508518c1c385_quiz.html&quot;&gt;dance moves&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.theguardian.com/world/ng-interactive/2015/dec/02/how-well-do-you-really-know-your-country-take-our-quiz&quot;&gt;how well do you really know your country&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/interactive/2014/03/21/science/can-you-spot-the-liar.html&quot;&gt;can you spot the liar?&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 12 Apr 2016 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/code/2016/04/12/class.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/code/2016/04/12/class.html</guid>
+        
+        
+        <category>code</category>
+        
+      </item>
     
       <item>
         <title>9. You cut the budget.</title>

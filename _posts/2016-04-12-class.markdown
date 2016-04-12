@@ -1,0 +1,54 @@
+---
+layout: post
+title:  10. Build a Quiz.
+date:   2016-04-12
+categories: code
+description: Use everything you've learned so far, HTML, CSS, JS and write, design, build a quiz.
+assignment: Call your quiz a8-quiz.
+---
+
+groups of 2-3.
+
+## come up with an idea for a quiz. 
+there are a bunch of examples below to get you started.
+
+sketch on paper (or photoshop or illustrator) your wireframe for how you want the quiz to look. 
+show it to me.
+
+gather the elements you need. 
+write your questions. 
+
+translate your sketch into html.
+add style.
+add js.
+
+publish! before the next class. both of you need to publish your own to your own github, but the code can be the same.
+
+## examples
+
+[are you smarter than a millionaire? or which painting cost more.](http://www.nytimes.com/interactive/2015/11/10/arts/design/art-auction-quiz.html)
+
+[do you know what yolo is?](http://www.nytimes.com/interactive/2015/02/22/upshot/internet-language-quiz.html)
+
+[20 questions a future president should know](https://www.washingtonpost.com/news/worldviews/wp/2015/09/14/quiz-20-questions-about-the-world-a-future-u-s-president-should-get-right/)
+
+[a quiz about coffee](http://www.npr.org/sections/thesalt/2013/04/22/178092000/coffee-quiz-discover-the-world-in-a-cup-of-joe)
+
+[high school tests are hard. would you pass?](http://www.nytimes.com/interactive/2013/09/02/science/the-high-school-challenge.html)
+
+[match the dog to the owner](http://www.nytimes.com/interactive/2015/02/16/sports/westminster-dog-show-quiz.html)
+
+[who said it trump or berlusconi](http://www.nytimes.com/interactive/2015/07/19/opinion/sunday/Frank-Bruni-Quiz-Trump-Berlusconi.html)
+
+[can you name the city but just looking at it's street grid?](https://www.washingtonpost.com/news/wonk/wp/2015/01/09/quiz-can-you-name-a-city-just-by-looking-at-its-streets/)
+
+[how well do you know africa?](http://www.washingtonpost.com/wp-srv/special/world/do-you-know-africa/)
+
+[dance moves](https://www.washingtonpost.com/pb/do-you-know-these-dance-moves/bcfe0ad4-6862-4ec0-a8c0-508518c1c385_quiz.html)
+
+[how well do you really know your country](http://www.theguardian.com/world/ng-interactive/2015/dec/02/how-well-do-you-really-know-your-country-take-our-quiz)
+
+[can you spot the liar?](http://www.nytimes.com/interactive/2014/03/21/science/can-you-spot-the-liar.html)
+
+
+
