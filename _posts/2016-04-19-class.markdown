@@ -1,0 +1,21 @@
+---
+layout: post
+title:  11. One last run at CSS.
+date:   2016-04-19
+categories: code
+description: Learning how to use a framework, specificaly, materialize.
+assignment: a9-portfolio. Design your portfolio site using materialize. It 
+---
+
+Positioning elements in css is a pain. Optimizing your layouts for tablet and mobile is a pain. Someone should have written a bundle of code that takes care of all of this for me that I can just download and include and boom, I'm done.
+
+What's that? Someone has? You don't say?
+
+Actually, a ton of people have. We're going to start by learning this one — [materialize](http://materializecss.com/).
+
+Materialize does a lot. And has a lot builit in CSS rules, a grid system, javascript, forms, etc. You don't have to use it all. Just use what you need.
+
+## You have to learn how to learn skills you're not taught ... 
+... and how is a great time to start. 
+
+I showed you the basics of the [materialize grid](http://materializecss.com/grid.html) (wrap things in a container, add some classes to your divs, and you're good to go). But, like I said, materialize is chock full of other goodies. This is how many libraries and frameworks are built. And if you can dive in, pull out the pieces you need, figure out how to use them, you will have conquered the internet.
