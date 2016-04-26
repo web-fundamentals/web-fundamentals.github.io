@@ -4,7 +4,7 @@ title:  11. One last run at CSS.
 date:   2016-04-19
 categories: code
 description: Learning how to use a framework, specificaly, materialize.
-assignment: a9-portfolio. Design your portfolio site using materialize. It 
+assignment: a9-portfolio. Design your portfolio site using materialize.
 ---
 
 Positioning elements in css is a pain. Optimizing your layouts for tablet and mobile is a pain. Someone should have written a bundle of code that takes care of all of this for me that I can just download and include and boom, I'm done.
